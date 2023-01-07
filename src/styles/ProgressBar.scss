@@ -1,0 +1,69 @@
+#form {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#progressbar {
+    margin: 30px auto;
+    overflow: hidden;
+    color: #beb7a4;
+
+    .active {
+        color: #3d348b
+    }
+
+    li {
+        list-style-type: none;
+        font-size: 15px;
+        width: 10%;
+        float: left;
+        position: relative;
+        font-weight: 400;
+
+        &:before {
+            content: attr(data-content);
+            width: 50px;
+            height: 50px;
+            line-height: 45px;
+            display: block;
+            font-size: 20px;
+            color: #3d348b;
+            background: #beb7a4;
+            border-radius: 50%;
+            margin: 0 auto 10px auto;
+            padding: 2px;
+        }
+
+        &:after {
+            content: '';
+            width: 100%;
+            height: 2px;
+            color: #3d348b;
+            background: #beb7a4;
+            position: absolute;
+            left: 0;
+            top: 25px;
+            z-index: -1
+        }
+
+        strong {
+            color: #3d348b;
+        }
+    }
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    color: #beb7a4;
+    background: #3d348b
+}
+
+.progress {
+    height: 20px
+}
+
+.progress-bar {
+    background-color: #3d348b;
+}

@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.title-content {
+  text-align: center;
+  height: 100%;
+  padding: 100px 50px;
+
+  div {
+    margin: 20px;
+  }
+
+  .title{
+    margin-top: 150px;
+    font-size: 68px;
+    font-weight: bolder;
+    color: #e6af2e;
+  }
+
+  .subtitle {
+    font-size: 35px;
+    color: #e0e2db;
+  }
+
+  button {
+    margin-top: 75px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-size: 24px;
+    background-color: #e0e2db;
+    color: #191716;
+  }
+}
+
+.presentation {
+  padding: 50px;
+
+  .step-title {
+    font-size: 35px;
+    color: #3d348b;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .step-content {
+    margin: 0px 25px;
+    color: #191716 !important;
+    font-size: 24px;
+  }
+}
+
+.navigation {
+  width: calc(100% - 150px);
+  margin-bottom: 50px;
+  padding: 20px 75px;
+  position: absolute;
+  bottom: 0;
+
+  button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-size: 16px;
+    background-color: #3d348b;
+    color: #e0e2db;
+  }
+
+  .next {
+    float: right;
+  }
+}
+
+.list {
+  margin: 0 50px;
+  
+  ul {
+    list-style: none; /* Remove default bullets */
+
+    li::before {
+      content: "\2022";
+      color: #3d348b;
+      display: inline-block;
+      width: 1em; /* Also needed for space (tweak if needed) */
+      margin-left: -1em; /* Also needed for space (tweak if needed) */
+      font-size: 36px;
+      vertical-align: middle;
+    }
+  }
+}
