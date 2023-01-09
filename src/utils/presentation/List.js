@@ -1,5 +1,5 @@
 import { KEY_CODE } from "const/app";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import useKeyDownEventListener from "utils/hooks/useKeyDownEventListener";
 
 const List = ({ isOrderedList = false, ...props }) => {
