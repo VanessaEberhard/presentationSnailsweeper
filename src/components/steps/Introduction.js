@@ -1,8 +1,8 @@
-import List from "utils/List";
+import List from "utils/presentation/List";
 
 const data = ["Text 1", "Text 2", "Text 3"];
 
-const StepOne = () => {
+const Introduction = () => {
   return (
     <>
       <div>placeholder for content</div>
@@ -12,4 +12,4 @@ const StepOne = () => {
   );
 };
 
-export default StepOne;
+export default Introduction;

@@ -1,17 +1,13 @@
 import { useRecoilValue } from "recoil";
 import { pageTitle, progressBar } from "state/app";
-import Navigation from "utils/Navigation";
-import ProgressBar from "utils/ProgressBar";
-import StepOne from "./StepOne";
-
-const steps = {
-  1: <StepOne />,
-  2: "Test 2",
-};
+import useSteps from "utils/hooks/useSteps";
+import Navigation from "./navigation/Navigation";
+import ProgressBar from "./navigation/ProgressBar";
 
 const Presentation = () => {
   const selectedItemId = useRecoilValue(progressBar);
   const title = useRecoilValue(pageTitle);
+  const steps = useSteps();
 
   document.body.style = "background: #e0e2db;";
 

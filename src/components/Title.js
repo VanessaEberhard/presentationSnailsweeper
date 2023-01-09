@@ -1,41 +1,34 @@
 import { KEY_CODE } from "const/app";
-import { useCallback, useEffect } from "react";
+import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import { useSetRecoilState } from "recoil";
-import { pageTitle } from "state/app";
+import useKeyDownEventListener from "utils/hooks/useKeyDownEventListener";
 
 const Title = () => {
   const navigate = useNavigate();
-  const setPageTitle = useSetRecoilState(pageTitle);
 
   const navigateToPresentation = useCallback(
     () => navigate("/presentation"),
     [navigate]
   );
 
-  document.body.style = "background: #191716;";
-
-  useEffect(() => {
-    setPageTitle("Snailsweeper")
-    const handleKeyDown = (e) => {
-      switch(e.keyCode) {
+  const handleKeyDown = useCallback(
+    (e) => {
+      switch (e.keyCode) {
         case KEY_CODE.SPACE_BAR:
         case KEY_CODE.KEY_RIGHT:
         case KEY_CODE.ENTER_KEY:
-            navigateToPresentation();
-            return;
+          navigateToPresentation();
+          return;
         default:
-            return;
+          return;
       }
-    }
+    },
+    [navigateToPresentation]
+  );
 
-    document.addEventListener("keydown", handleKeyDown);
+  useKeyDownEventListener(handleKeyDown, "Snailsweeper");
 
-    // Don't forget to clean up
-    return function cleanup() {
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-  }, [navigateToPresentation, setPageTitle]);
+  document.body.style = "background: #191716;";
 
   return (
     <div className="title-content">

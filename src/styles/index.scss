@@ -7,11 +7,22 @@
 body {
   background-color: #191716;
   font-family: 'Muli', sans-serif;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-  // height: 100%;
-  // width: 100%;
-  // overflow: hidden;
-  // margin: 0;
+}
+
+.list {
+  margin: 0 50px;
+
+  ul {
+    list-style: none;
+
+    li::before {
+      content: "\2022";
+      color: #3d348b;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+      font-size: 36px;
+      vertical-align: middle;
+    }
+  }
 }
