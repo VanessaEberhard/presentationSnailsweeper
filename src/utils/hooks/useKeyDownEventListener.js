@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useSetRecoilState } from "recoil";
-import { pageTitle } from "state/app";
+import { pageTitle } from "states/app";
 
 const useKeyDownEventListener = (handleKeyDown, title) => {
   const setPageTitle = useSetRecoilState(pageTitle);

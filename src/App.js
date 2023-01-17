@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 
 import Routes from "routes/App";
-import { pageTitle } from "state/app";
+import { pageTitle } from "states/app";
 
 function App() {
   const title = useRecoilValue(pageTitle);

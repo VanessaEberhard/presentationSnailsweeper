@@ -1,14 +1,18 @@
+import { STEPS } from "const/app";
 import List from "utils/presentation/List";
+import Snail from "images/Snail.png";
+import Image from "utils/presentation/Image";
 
-const data = ["Text 1", "Text 2", "Text 3"];
+const data = ["Snailsweeper"];
 
 const Introduction = () => {
   return (
-    <>
-      <div>placeholder for content</div>
-      <div>List example</div>
-      <List data={data} />
-    </>
+    <div className="introduction">
+      <List data={data} listId={STEPS.INTRODUCTION} />
+      <div className="snail">
+        <Image src={Snail} alt="Snail" />
+      </div>
+    </div>
   );
 };
 

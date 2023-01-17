@@ -2,7 +2,7 @@ import { STEP_PROGRESS_BAR } from "const/app";
 import { useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useRecoilState, useSetRecoilState } from "recoil";
-import { pageTitle, progressBar } from "state/app";
+import { pageTitle, progressBar } from "states/app";
 
 const useProgressBar = () => {
   const [selectedItemId, setSelectedItemId] = useRecoilState(progressBar);

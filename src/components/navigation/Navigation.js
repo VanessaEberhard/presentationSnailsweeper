@@ -9,10 +9,10 @@ const Navigation = () => {
   const handleKeyDown = useCallback(
     (e) => {
       switch (e.keyCode) {
-        case KEY_CODE.KEY_RIGHT:
-          return goToNext();
-        case KEY_CODE.KEY_LEFT:
-          return goToPrevious();
+        // case KEY_CODE.KEY_RIGHT:
+        //   return goToNext();
+        // case KEY_CODE.KEY_LEFT:
+        //   return goToPrevious();
         case KEY_CODE.NUMBER_ONE:
         case KEY_CODE.NUMBER_TWO:
         case KEY_CODE.NUMBER_THREE:
@@ -27,7 +27,7 @@ const Navigation = () => {
           return;
       }
     },
-    [goToNext, goToPrevious, goToStep]
+    [goToStep]
   );
 
   useKeyDownEventListener(handleKeyDown);

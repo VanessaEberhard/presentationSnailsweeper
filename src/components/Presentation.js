@@ -1,5 +1,5 @@
 import { useRecoilValue } from "recoil";
-import { pageTitle, progressBar } from "state/app";
+import { pageTitle, progressBar } from "states/app";
 import useSteps from "utils/hooks/useSteps";
 import Navigation from "./navigation/Navigation";
 import ProgressBar from "./navigation/ProgressBar";

@@ -1,7 +1,7 @@
 import { STEP_PROGRESS_BAR } from "const/app";
 import _ from "lodash";
 import { useRecoilState } from "recoil";
-import { progressBar } from "state/app";
+import { progressBar } from "states/app";
 import "styles/ProgressBar.scss";
 
 const ProgressBar = () => {

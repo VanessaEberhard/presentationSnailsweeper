@@ -43,9 +43,11 @@
   }
 
   .step-content {
-    margin: 0px 25px;
+    margin: 0px 20%;
     color: #191716 !important;
     font-size: 24px;
+    // align-items: center;
+    // text-align: center;
   }
 }
 
@@ -83,4 +85,40 @@
     font-size: 50px;
     font-weight: bolder;
   }
+}
+
+.introduction {
+  .snail {
+    margin: 30px 0px;
+  }
+}
+
+.image {
+  text-align: center;
+  // margin: 15px 0px;
+  // mix-blend-mode: color-burn !important;
+
+  img {
+    width: 35%;
+  }
+
+  .gitlab {
+    width: 200px !important;
+  }
+}
+
+.challenges {
+  margin-left: 50px;
+
+  .green {
+    color: green;
+  }
+
+  .red {
+    color: #6f0028;
+  }
+}
+
+.playfield {
+  margin-top: 30px;
 }

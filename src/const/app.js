@@ -21,7 +21,7 @@ export const STEP_PROGRESS_BAR = [
   },
   {
     id: STEPS.REFLEXION,
-    label: "Reflexion",
+    label: "Reflexion & Herausforderungen",
   },
   {
     id: STEPS.PROSPECT,
