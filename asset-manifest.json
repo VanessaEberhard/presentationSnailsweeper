@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/presentationSnailsweeper/static/css/main.fadc38c9.css",
-    "main.js": "/presentationSnailsweeper/static/js/main.66082d16.js",
+    "main.css": "/presentationSnailsweeper/static/css/main.944d4cc4.css",
+    "main.js": "/presentationSnailsweeper/static/js/main.1cf251c6.js",
     "static/js/787.a1c645c1.chunk.js": "/presentationSnailsweeper/static/js/787.a1c645c1.chunk.js",
+    "static/media/SnailSweeper.mp4": "/presentationSnailsweeper/static/media/SnailSweeper.e012fc9d9f4e17aecf5c.mp4",
+    "static/media/Snail.png": "/presentationSnailsweeper/static/media/Snail.d50ca84c7efbc65cfb46.png",
+    "static/media/PairProgramming.jpg": "/presentationSnailsweeper/static/media/PairProgramming.7587fb99cc03caead701.jpg",
+    "static/media/Playfield.jpg": "/presentationSnailsweeper/static/media/Playfield.7a794c47654e559074fb.jpg",
+    "static/media/GitLabBoard.png": "/presentationSnailsweeper/static/media/GitLabBoard.5279834668b7b3370ce6.png",
     "static/media/QuestionMark.png": "/presentationSnailsweeper/static/media/QuestionMark.51d88aef8582bed903ad.png",
     "index.html": "/presentationSnailsweeper/index.html",
-    "main.fadc38c9.css.map": "/presentationSnailsweeper/static/css/main.fadc38c9.css.map",
-    "main.66082d16.js.map": "/presentationSnailsweeper/static/js/main.66082d16.js.map",
+    "main.944d4cc4.css.map": "/presentationSnailsweeper/static/css/main.944d4cc4.css.map",
+    "main.1cf251c6.js.map": "/presentationSnailsweeper/static/js/main.1cf251c6.js.map",
     "787.a1c645c1.chunk.js.map": "/presentationSnailsweeper/static/js/787.a1c645c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fadc38c9.css",
-    "static/js/main.66082d16.js"
+    "static/css/main.944d4cc4.css",
+    "static/js/main.1cf251c6.js"
   ]
 }
