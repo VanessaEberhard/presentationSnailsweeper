@@ -4,7 +4,11 @@ import List from "utils/presentation/List";
 import GitLabBoard from "images/GitLabBoard.png";
 
 const data = [
-  "Analyse",
+  <span>
+    <span>Analyse</span>
+    <br />
+    <span>Try & Error</span>
+  </span>,
   <span>
     <span>GitLab board</span>
     <br />

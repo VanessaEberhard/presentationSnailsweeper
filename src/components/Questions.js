@@ -23,7 +23,7 @@ const Questions = () => {
   return (
     <div className="questions">
       <img src={QuestionMark} alt="Question mark" className="image" />
-      <div className="subtitle">Questions</div>
+      <div className="subtitle">Fragen</div>
     </div>
   );
 };

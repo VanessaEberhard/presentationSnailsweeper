@@ -77,6 +77,7 @@
   text-align: center;
 
   .image {
+    margin-top: 100px;
     filter: invert(62%) sepia(78%) saturate(404%) hue-rotate(4deg) brightness(98%) contrast(93%);
     width: 50%;
   }
@@ -95,8 +96,6 @@
 
 .image {
   text-align: center;
-  // margin: 15px 0px;
-  // mix-blend-mode: color-burn !important;
 
   img {
     width: 35%;
@@ -121,4 +120,17 @@
 
 .playfield {
   margin-top: 30px;
+}
+
+.pairProgramming {
+  width: 600px !important;
+  border-radius: 50px !important;
+}
+
+.video-component {
+  text-align: center;
+
+  video {
+    width: 800px;
+  }
 }

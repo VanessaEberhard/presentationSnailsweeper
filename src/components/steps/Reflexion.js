@@ -20,7 +20,6 @@ const data = [
       <div className="green">
         <div>Gegenseitige Unterstützung</div>
         <div>Fehleranalyse und Behebung</div>
-        <div>Fehleranalyse</div>
       </div>
       <br />
       <div className="red">
