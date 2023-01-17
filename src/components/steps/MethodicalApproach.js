@@ -16,8 +16,6 @@ const data = [
   </span>,
   <span>
     <span>Regelmässige Kommunikation</span>
-    <br />
-    <span>Thinking Point</span>
   </span>,
 ];
 
