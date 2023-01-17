@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/presentationSnailsweeper/static/css/main.944d4cc4.css",
-    "main.js": "/presentationSnailsweeper/static/js/main.1cf251c6.js",
+    "main.js": "/presentationSnailsweeper/static/js/main.af3cd018.js",
     "static/js/787.a1c645c1.chunk.js": "/presentationSnailsweeper/static/js/787.a1c645c1.chunk.js",
     "static/media/SnailSweeper.mp4": "/presentationSnailsweeper/static/media/SnailSweeper.e012fc9d9f4e17aecf5c.mp4",
     "static/media/Snail.png": "/presentationSnailsweeper/static/media/Snail.d50ca84c7efbc65cfb46.png",
@@ -11,11 +11,11 @@
     "static/media/QuestionMark.png": "/presentationSnailsweeper/static/media/QuestionMark.51d88aef8582bed903ad.png",
     "index.html": "/presentationSnailsweeper/index.html",
     "main.944d4cc4.css.map": "/presentationSnailsweeper/static/css/main.944d4cc4.css.map",
-    "main.1cf251c6.js.map": "/presentationSnailsweeper/static/js/main.1cf251c6.js.map",
+    "main.af3cd018.js.map": "/presentationSnailsweeper/static/js/main.af3cd018.js.map",
     "787.a1c645c1.chunk.js.map": "/presentationSnailsweeper/static/js/787.a1c645c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.944d4cc4.css",
-    "static/js/main.1cf251c6.js"
+    "static/js/main.af3cd018.js"
   ]
 }
